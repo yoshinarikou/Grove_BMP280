@@ -4,7 +4,8 @@
 #include <Arduino.h>
 #include <Wire.h>
 
-#define BMP280_ADDRESS   0x77
+//#define BMP280_ADDRESS   0x77
+#define BMP280_ADDRESS   0x76
 
 #define BMP280_REG_DIG_T1    0x88
 #define BMP280_REG_DIG_T2    0x8A
